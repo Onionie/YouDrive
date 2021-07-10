@@ -1,0 +1,20 @@
+body{
+
+}
+
+li{
+  margin: 0 20px;
+}
+
+.navfont{
+padding: 0 1%;
+font-size: 1.5rem;
+}
+
+.home-car{
+  background-color: #96BAFF;
+}
+
+.car-image{
+width: 100%;
+}
