@@ -1,5 +1,9 @@
 body{
+  font-family: "Montserrat";
+}
 
+h1{
+  font-size: 2rem;
 }
 
 li{
@@ -8,13 +12,43 @@ li{
 
 .navfont{
 padding: 0 1%;
-font-size: 1.5rem;
+font-size: 2rem;
+font-family: 'Patua One', cursive;
 }
 
 .home-car{
   background-color: #96BAFF;
+  height: 500px;
+  width: 100%;
 }
 
 .car-image{
-width: 100%;
+height: 100%;
+width: auto;
+}
+
+.panel{
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-bottom: 60px; 
+
+}
+
+.title-panel{
+  width: auto;
+  background-color: #ECFCFF;
+}
+
+.right-panel{
+  background-color: yellow;
+  width: 40%;
+  height: 40%;
+  color: white;
+  font-size: 1rem;
+}
+
+.left-panel{
+  background-color: green;
+  height: 40%;
+  width: 40%;
 }
