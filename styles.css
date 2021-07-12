@@ -58,6 +58,8 @@ width: 100%;
   margin-bottom: 20px;
 }
 
+
+/* Review Section */
 #review-panel{
   background-color: #C2B8A3;
 }
@@ -72,7 +74,17 @@ width: 100%;
 
 .rev-paragraph{
  font-size: 2rem;
- padding: 5% 10% 0% 10%;
+ padding: 5% 10% 0 10%;
  line-height: 1.5;
  color: black;
+}
+
+/* Features Section */
+.features-panel{
+  text-align: center;
+  margin: 5% 23%;
+  border-radius: 1%;
+  box-shadow: 0 0 5px grey;
+  color: black;
+  padding: 2%;
 }
