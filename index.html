@@ -26,59 +26,96 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar navbar-dark fixed-top" style="background-color: #435560;">
-    <a class="navbar-brand navfont" href="#">YouDrive</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <section id="title">
+
+
+    <!-- Nav-bar -->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark fixed-top" style="background-color: #435560;">
+      <a class="navbar-brand navfont" href="#title">YouDrive</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#plan">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#review">Reviews</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Car Image -->
+    <div class="home-car" alt="car-image">
+      <img class="car-image" src="images/car.png" alt="car-image-her">
+    </div>
+  </section>
+
+  <section id="plan">
+
+    <div class="container-fluid row title-panel">
+      <div class="left-panel col-lg-6 panel">
+        <h1>California Drivers Ed Online</h1>
+        <p>For Ages 14 and above • DMV-Licensed</p>
+        <h5>Take Your Drivers Ed Course Online</h5>
+        <ul>
+          <li>Unlimited practice tests included with purchase</li>
+          <li>100% permit exam pass rate</li>
+          <li>Convenient—take anywhere, anytime, on any device</li>
+        </ul>
+        <button class="Enroll-btn btn btn-warning" onclick="this.blur();" type="button" name="button">Enroll Now</button>
+      </div>
+      <div class="right-panel col-lg-6 panel">
+        <h1>California Driving lessons</h1>
+        <p>State of California Approved</p>
+        <h5>Independence is just around the corner</h5>
+        <ul>
+          <li>Schedule your lessons with our partnered DMV licensed instructors</li>
+          <li>Meet all your requirements for getting your permit</li>
+          <li>Driving lessons for all ages</li>
+        </ul>
+        <button class="Enroll-btn btn btn-warning" onclick="this.blur();" type="button" name="button">Register Now</button>
+      </div>
+      </div>
+    </section>
+
+<section id="review">
+  <div id="review-panel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/rev1.jpg" class="test-images" alt="review-image">
+        <p class="rev-paragraph">"This is a really great and helpful tool to help you get a clear understanding on what to expect on the permit test its straight forward I personally would invite people to use this program!!!!" <br> -Edward</p>
+      </div>
+      <div class="carousel-item">
+        <img src="images/rev2.jpg" class="test-images" alt="...">
+        <p class="rev-paragraph">"Course was good, really explained every concept. I Believe I am a more informed and safer driver after it. I Would recommend to other people".<br> -Samantha</p>
+      </div>
+      <div class="carousel-item">
+        <img src="images/rev3.jpg" class="test-images" alt="...">
+        <p class="rev-paragraph">"It was super simple and fun to use. I learned easily, and use some of that in real life. I would definitely recommend this program to anybody!"<br> -Philip</p>
+      </div>
+    </div>
+    <button class="carousel-control-prev cont" type="button" data-bs-target="#review-panel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Reviews</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class="home-car" alt="car-image">
-    <img class="car-image" src="images/car.png" alt="car-image-her">
+    <button class="carousel-control-next cont" type="button" data-bs-target="#review-panel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
   </div>
+</section>
 
-  <div class="container-fluid row title-panel">
-    <div class="left-panel col-lg-6 panel">
-      <h1>California Drivers Ed Online</h1>
-      <p>For Ages 14 and above • DMV-Licensed</p>
-      <h5>Take Your Drivers Ed Course Online</h5>
-      <ul>
-        <li>Unlimited practice tests included with purchase</li>
-        <li>100% permit exam pass rate</li>
-        <li>Convenient—take anywhere, anytime, on any device</li>
-      </ul>
-      <button class="Enroll-btn" type="button" name="button">Enroll Now</button>
-    </div>
-    <div class="right-panel col-lg-6 panel">
-      <h1>California Driving lessons</h1>
-      <p>State of California Approved</p>
-      <h5>Independence is just around the corner</h5>
-      <ul>
-        <li>Schedule your lessons with our partnered DMV licensed instructors</li>
-        <li>Meet all your requirements for getting your permit</li>
-        <li>Driving lessons for all ages</li>
-      </ul>
-      <button class="Enroll-btn" type="button" name="button">Register Now</button>
+<section id="pricing">
 
+</section>
 
+<section id="contact">
 
-    </div>
-
-
-  </div>
-
+</section>
 
 
 

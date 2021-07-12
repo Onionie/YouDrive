@@ -12,7 +12,7 @@ h5{
 }
 
 p{
-line-height: 0;
+line-height: 1;
 color: grey;
 }
 
@@ -27,28 +27,16 @@ font-size: 2rem;
 font-family: 'Patua One', cursive;
 }
 
-.home-car{
-  background-color: #96BAFF;
-  height: 500px;
-  width: 100%;
-}
-
 .car-image{
-height: 100%;
-width: auto;
+width: 100%;
 }
 
 .panel{
-  margin-top: 60px;
+  margin-top: 6%;
+  margin-bottom: 6%;
   margin-left: 100px;
-  margin-bottom: 60px;
   border-radius: 1%;
   box-shadow: 0 0 5px grey;
-
-}
-
-.title-panel{
-  width: auto;
   color: black;
 
 }
@@ -62,12 +50,29 @@ width: auto;
 .left-panel{
   height: 40%;
   width: 40%;
-
 }
 
 .Enroll-btn{
   position: relative;
   left: auto;
   margin-bottom: 20px;
+}
 
+#review-panel{
+  background-color: #C2B8A3;
+}
+
+.test-images{
+  margin: 3% 3% 3% 10%;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  float: left;
+}
+
+.rev-paragraph{
+ font-size: 2rem;
+ padding: 5% 10% 0% 10%;
+ line-height: 1.5;
+ color: black;
 }
