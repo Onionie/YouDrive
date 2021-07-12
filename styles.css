@@ -6,8 +6,19 @@ h1{
   font-size: 2rem;
 }
 
+h5{
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+p{
+line-height: 0;
+color: grey;
+}
+
 li{
   margin: 0 20px;
+  line-height: 1;
 }
 
 .navfont{
@@ -30,25 +41,33 @@ width: auto;
 .panel{
   margin-top: 60px;
   margin-left: 100px;
-  margin-bottom: 60px; 
+  margin-bottom: 60px;
+  border-radius: 1%;
+  box-shadow: 0 0 5px grey;
 
 }
 
 .title-panel{
   width: auto;
-  background-color: #ECFCFF;
+  color: black;
+
 }
 
 .right-panel{
-  background-color: yellow;
   width: 40%;
   height: 40%;
-  color: white;
   font-size: 1rem;
 }
 
 .left-panel{
-  background-color: green;
   height: 40%;
   width: 40%;
+
+}
+
+.Enroll-btn{
+  position: relative;
+  left: auto;
+  margin-bottom: 20px;
+
 }
