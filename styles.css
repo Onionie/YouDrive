@@ -88,3 +88,25 @@ width: 100%;
   color: black;
   padding: 2%;
 }
+
+/* Pricing Section */
+#pricing{
+  font-size: 1.5rem;
+  background-color: #FEF7DC;
+  text-align: center;
+}
+.pricing-panels{
+  padding: 5% 10%;
+}
+
+.price-btn{
+  width: 100%;
+}
+
+.card-panel{
+  margin: 2%;
+}
+
+.pricing-text{
+  padding-top: 5%;
+}
