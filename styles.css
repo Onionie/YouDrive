@@ -2,6 +2,10 @@ body{
   font-family: "Montserrat";
 }
 
+a{
+  text-decoration: none;
+}
+
 h1{
   font-size: 2rem;
 }
@@ -109,4 +113,22 @@ width: 100%;
 
 .pricing-text{
   padding-top: 5%;
+}
+
+.Call{
+  text-align: center;
+  margin: 5% 15%;
+}
+
+#footer{
+  background-color: #fff;
+  padding: 0 5%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 1%;
+}
+.social-icon:hover{
+  color: #A19882;
 }
